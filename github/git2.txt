@@ -1,0 +1,50 @@
+how exactly internally git stores data
+internally git store data in key , value to store data
+key hash of data we want to store
+ value --> actual data 
+ key -->40 digit hexademial value 
+ for same data this hash will be same 
+ value --> git store the compressed data in a block and some more metadata in the header 
+ blob--> big large object (it stores data )
+
+inside .git and inside object folder which present under .git folder 
+we store blobs
+when we add the file git add<filename> it gets stored under the object folder where a new folder created with
+first 2 key and the remaining key is used to store the file
+
+inside git content is stored once only 
+how git handle directories??
+git has one more type of data called tree 
+it store info about directories and their content 
+tree contain pointer to other blob and trees
+
+git internally does a lot of optimization the object are stored in compressed form 
+it mainly stores data about the change and algorthimically shows us the file content with that changed 
+
+
+git cat-file
+<flag>  -t --> type of the object // -p--> print the content 
+<hash> 5-6 character 
+
+commit  stored as an object (commit object)
+every commit object point to a tree
+commit object has data of author and commiter 
+data ,message and parent commit 
+
+git commit -m "message"
+
+to commit more changes 
+git commit --amend 
+
+whenever we code it can live in one of the following area 
+1> working area
+2>staging
+3> repo
+
+working area the files which are not in your staging area and may be currently handle by git are in working area these files are also called
+as untracked files 
+
+staging area files and changes which are surely going to bepart of the next commit are in staging area ie on files/changing when we do git add 
+staging area is a place where git knows what will change btw the current and next commit 
+
+repo area all our commit exist 

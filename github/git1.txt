@@ -1,0 +1,31 @@
+what is version control system 
+version particular state of your software
+vcs is a tool to manage version and changes in a software  help us to track changes manage version and then rollback 
+compare changes in version 
+log the changes 
+collaboration
+
+version control system ==> mercurial, git 
+
+git is different than github
+git 
+it is open source easily maintain code integrity
+secure 
+flexibity
+
+git commands 
+
+git config --global user.email "enter your email"
+git config --global user.name "enter your name "
+
+to set your account default identity 
+omit --global to set the identity only in this repository
+
+git init--> initialize the git repository (folder managed by git where we can track all the changes we are making in project)
+a new version ---> a new commit 
+if we have to create a new version we need to create a new commit 
+
+git add <filename> ---> git start tracking to change to the file 
+git commit -m "message"-->this create a new verison based on your prv change 
+
+git log --> how many commit we done 

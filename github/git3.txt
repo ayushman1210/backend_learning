@@ -1,0 +1,9 @@
+branches 
+let us say we want to do some parallel task on multiple feature at same line 
+
+to create new branch 
+git checkout -b <branch name >
+git pull origin 
+git merge <branch name>
+
+git pull request 

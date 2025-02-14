@@ -1,0 +1,8 @@
+we can declare a function async 
+if you declare a function async it does the following 
+
+it allow the use of await keyword 
+if you declare a function async it allows consume of a promise using await 
+an async function always converts your return value to promise 
+
+inside async they look sync but over it async 

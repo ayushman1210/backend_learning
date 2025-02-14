@@ -1,0 +1,1 @@
+ resolve("user data is reecieved ");

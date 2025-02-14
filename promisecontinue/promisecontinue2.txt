@@ -1,0 +1,3 @@
+microtask queue have higher priority then the event queue(callback queue)
+
+promise callback goes to micro task whereas the normal callback goes event queue 
