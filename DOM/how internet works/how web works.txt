@@ -1,0 +1,15 @@
+what happens when we write www.google.com??
+computer network --> group of interconnected systems 
+internet --> network of computer networks 
+url-->uniform resource locator 
+DNS-->domain name server
+every url store an ip adrress
+dns lookup 
+client server architecture 
+once tcp connection setup then http is called 
+
+for the optimisation of app 
+minification and compression(for image) 
+lazy loading
+not server anything in one go 
+optimize images -->fetch correct size        

@@ -1,0 +1,23 @@
+mvc model view controller 
+
+from views --> controller --> models 
+ route--> middleware--> when user interacts they interacts with the controllers and then it forward to the service layer where we have 
+the business logics then service layer called to repository layer (only job is to interact with databases )
+how databases looklike it will inside the modals and if there is some common function then it present in the 
+helpers 
+
+how to setup folder
+1>task based  
+/controller
+/services
+/models
+
+
+2> feature based 
+user / usercontroller user models 
+movie
+booking
+
+
+
+middlewares 

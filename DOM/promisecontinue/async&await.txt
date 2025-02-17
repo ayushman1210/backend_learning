@@ -1,0 +1,3 @@
+async function await the promises and also the non promise value
+how we handle error in  promises
+.then take function one is success callback and second one is error callback 

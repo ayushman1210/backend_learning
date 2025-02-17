@@ -1,0 +1,66 @@
+computer network
+network --> group or system of interconnected people or item bunch of computer interconnected is called 
+computer network
+
+internet --> in  a nutshell internet is a network of computer network complex web of interconnected computer networks 
+
+
+history of internet 
+1957-->soviet union--> sputnik satellite
+1957-->US-->ARPA(advance research project agency)
+during 1960-70 US developed communication system for ARPA computer to share information 
+in 1969 ARPANET was developed 
+
+around 1980's they started transmiting to new protocol called as TCP/IP and in these times ARPANET is called 
+as internet 
+in 1990 CERN (council of europian research) also want to exchange/share  their information for their hyperlink 
+based docs 
+
+in 1990 tim berner lee introduced WWW
+so intial some browser came was mosac and netscape
+
+protocols
+protocols are set of rule and regulation setup to communicate and share information over a network 
+example--> HTTP,UDP,TCP, SMTP etc
+
+packets 
+in order to share data we cant sent big chunk of data over a network so we divide the data to be sent into 
+smaller chunks and these smaller chunks is called packet
+
+Address 
+sending messages over a network require the destination details this details uniquly identify the end system
+is called as address 
+
+ports 
+any machine could be running many network apps in order to distinguish these apps for receiving messages we 
+use ports (port number)
+IP address+port ==> socket 
+
+port help you get the packet to specific process on the host 
+every process has a 16bit port number 0-2^16=65535(range of port number )
+
+0-1023-> well known ports 
+example 
+port 80 belongs to HTTP
+port 443 belongs to https
+
+1024-49152--> registered ports 
+the are used by specific potentially properitary apps/process that are known but not system defined 
+example
+mysql-->1433
+mongodb-->27017
+
+49152-65535-->dynamic ports 
+
+            access networks 
+            these are media using which end systems connect to internet 
+            example--> wifi,telephone line
+
+            network interface adapter--> it enable a computer to attach to a network as there are different type of network it 
+            act as a single suit to connect to any network 
+
+DSL(digital subscriber line)--> DSL uses existing telephone groundwork lines for internet connection 
+generally DSL provided by same company which supplies telephone services 
+
+ISP(internet service provider )-->it just a company that provides end users internet 
+example-->AT&T

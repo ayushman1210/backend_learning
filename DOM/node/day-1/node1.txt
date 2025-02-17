@@ -1,0 +1,13 @@
+framework -->multiple library collection
+library--> do one simple task 
+node is a runtime environment for js 
+globals provided by the runtime 
+process 
+__dirname --> this global can not be always accessible in es module we cant use __dirname
+module--> module patten of node 
+module--> objects 
+.exports
+common js module we use syntax require
+es module  we use syntax import and make file as .mjs extension for the use 
+
+packages it is a folder which contain package.json file (json-->javascript object notation )

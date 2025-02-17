@@ -1,0 +1,18 @@
+client  initiate req on url and need some mechanism process the request and then give response to the client 
+using http module we can setup a basic server 
+
+http module have a function called create server 
+this createserver func take callback as input 
+now inside the callback we get two arguments 
+-->request=this argument contain all the detail about incoming req
+-->response= =this argumnet contain func using which wecan prep the response 
+
+the create server function return us the server object 
+
+
+what is the port?? logical endpoints 
+
+we can easier our life by using framework express
+
+
+

@@ -1,0 +1,2 @@
+npm initiate a basic node project 
+streams 

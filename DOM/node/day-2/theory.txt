@@ -1,0 +1,8 @@
+how can we prepare command line script ?
+stream data that is transfeerred to be prccessed fom input device to logical unit 
+packages 
+depend on already written library
+package manager 
+python-->pip
+node --> npm , yarn 
+these package manager mange installation dependencies resolution, version management 

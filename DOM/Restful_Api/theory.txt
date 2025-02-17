@@ -1,0 +1,30 @@
+CRUD--> create read update and delete 
+basic blog app
+api to create a blog 
+url-->/blogs
+method --> post
+body params-->{
+    title:
+    description:
+}
+
+api to read all blogs
+url-->/blogs
+method-->GET
+
+api to read a specific bog (using id)
+url-->/blogs/:id
+method -->GET
+
+to delete 
+url-->blogs/:id
+method-->delete
+
+to update
+url-->blogs/:id
+method --> put/patch 
+body.params-->{
+    title
+    
+    description
+}

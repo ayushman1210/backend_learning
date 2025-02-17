@@ -1,0 +1,41 @@
+                          client server architecture 
+
+client -->any user facing interactive end (frontend )
+server-->server can be a hardware or software it is a hardware or programme that provide a service to another 
+computer program or a diffr machine 
+
+
+client (res)<----> (req)server
+when client send req to server we have to prepare api contracts 
+we have to tell what url we have to hit 
+what type of request to hit 
+what data to send 
+how to send the data 
+
+what convention we use for setting up apis 
+-->REST
+-->SOAP
+-->GRPC and many more 
+
+-->REST(representational state transfer )
+every real life entity is  expected to be represented as a resource 
+everything with restful api request we have to sent type(methods) of the request 
+
+http request
+GET--> retrieve info from an api 
+POST--> create side effects on resource 
+PUT--> make compelete update to a resource 
+PATCH--> make partial update to a resource 
+DELETE--> delete a resource 
+
+get in get request data is send in url it gets saved in our history we can log it cache it 
+in post generally data is not expected to be sent url rather than in request bbody /payload 
+3ways to send the data 
+request params ==>flipkart/appleiphone
+request body=>seprate body it also have key value pair
+query params=flipkart/electronics ?company=samsung &filter=price
+
+
+in rest convention data message sent apart from url are sent in JSON
+monolith -->architecture to build project in which every service 
+then microservice come into the picture 
