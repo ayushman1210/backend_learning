@@ -1,0 +1,16 @@
+new objects by calling the constructor 
+to define data member we need to initialize inside the constructor function we use this keyword 
+to do it 
+
+behaviour of this in javascript is different in js this keyword refrence to the calling side 
+ie from where the funct or class is called 
+
+new keyword only call constructor
+new is not only associated with the classes it can be used with function 
+
+new keyword execute in 4 step 
+new keyword create a brand new empty in js objects
+it does a process of linking 
+
+it call the function with this property assigned to the empty object it created before
+function execution started  
