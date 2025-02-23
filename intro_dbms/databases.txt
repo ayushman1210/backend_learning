@@ -1,0 +1,22 @@
+before --> file based system 
+1> data redundency 
+2> data inconsistency 
+3> difficult data access 
+4> security issue 
+5> data concurrent access 
+
+databuses nothing but shared collection of data 
+DBMS database management system 
+they help us to create fetch and naintain data in databases 
+they control the data redundency(repeating same data) --> normalization
+2> it help us to put constraints --> 
+restriction of unathorization
+easy backup and easily recovery 
+
+RDBMS
+relational database management system 
+it maintain data in the form of tables 
+eg: mysql pgsql oraclesql sqlite etc 
+
+sql is structured query language which is ussed to interact with the rdbms
+declearative programming language 

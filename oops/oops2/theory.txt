@@ -1,0 +1,6 @@
+                      prototype
+                      object are created by constructior calls using new keyword 
+                      classes --> blue prints 
+                      oject-->instances
+
+prototype --> mechanism way to which js object inherit feature from one another 
