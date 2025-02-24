@@ -4,3 +4,7 @@
                       oject-->instances
 
 prototype --> mechanism way to which js object inherit feature from one another 
+
+there is internal js environment 
+objec-->another object(and this linking is prototype)
+object<-- another object(this linking is called constructor)

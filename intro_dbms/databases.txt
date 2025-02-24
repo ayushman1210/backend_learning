@@ -20,3 +20,57 @@ eg: mysql pgsql oraclesql sqlite etc
 
 sql is structured query language which is ussed to interact with the rdbms
 declearative programming language 
+
+Mysql queries is case insenstive  and ; is mandantory 
+
+list all the databases 
+show databases;
+
+creating a databases 
+CREATE DATABASE <name of the databases>
+
+using of a database 
+USE <database name>
+ex USE learning;
+
+deleting a database 
+DROP DATABASE learning;
+
+MYSQL RDBMS STORE THE DATA IN THE TABLES 
+
+FOR SHOwing the table 
+SHOW TABLES;
+
+creating a table
+
+CREATE TABLE <table_name>(
+    title VARCHAR(30)
+    id int
+    content VARCHAR(1200)
+);
+
+drop a table 
+DROP TABLE <table_name>
+
+
+numeric--> INT,DECIMAL, BIGINT
+char--> char,varchar, enum etc
+date time--> DATE,TIME,DATE&TIME
+JSON
+
+get detail about table 
+
+DESCRIBE <table_name> 
+
+create table if not exist 
+ CREATE TABLE IF NOT EXISTS Actors( name Varchar(30) NOT N
+ULL , Gender ENUM("MALE","FEMALE","TRANSGENDER") NOT NULL, Charg
+es Decimal, Id Int AUTO_INCREMENT, PRIMARY KEY(Id));
+
+insert the data 
+INSERT INTO <name>(name,charges,gender) VALUES( "","","")
+
+retrieve everything from the table
+
+SELECT <attribute1>,<attribute2> FROM <NAME OF THE TABLE>
+SELECT * FROM  <table_name>

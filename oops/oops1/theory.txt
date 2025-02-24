@@ -12,4 +12,5 @@ new keyword execute in 4 step
 new keyword create a brand new empty in js objects
 it does a process of linking 
 
-it call the function with this property assigned to the empty object it created before 
+it call the function with this property assigned to the empty object it created before
+function execution started  
